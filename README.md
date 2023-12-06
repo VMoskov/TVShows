@@ -16,3 +16,7 @@ Extra assignment: adding pagination support using Delegating pattern to reduce t
 - home assignment 06: adding TV shows images using the Kingfisher pod, implementing "Remember me" button using UserDefaults, and adding animations to the application
 Extra assignment: implementing "Remember me" button using KeychainAccess pod, and adding the ability to refresh screen by pulling-to-refresh
 - home assignment 07: creating Profile Details screen allowing users to see their info, with the ability to change their profile picture using Gallery. The task was also to implement the logout feature
+
+# Demo
+You can download this repo using `git clone` or you can see the preview of the app here:
+![](https://github.com/VMoskov/TVShows/blob/main/demo/demo.gif)
