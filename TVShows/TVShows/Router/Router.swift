@@ -167,24 +167,6 @@ enum APIRouter {
         }
     }
     
-    var headers: HTTPHeaders? {
-        switch self {
-        case .login, .registration:
-            return [:]
-        default:
-            return HTTPHeaders(APIManager.instance.authInfo?.headers ?? [:])
-        }
-    }
-    
-    var headers: HTTPHeaders? {
-        switch self {
-        case .login, .registration:
-            return [:]
-        default:
-            return HTTPHeaders(APIManager.instance.authInfo?.headers ?? [:])
-        }
-    }
-    
 }
 
 extension APIRouter: URLRequestConvertible {

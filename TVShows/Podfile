@@ -21,9 +21,4 @@ target 'TVShows' do
             end
      end
   end
-
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 end
